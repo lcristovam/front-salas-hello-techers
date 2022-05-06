@@ -109,3 +109,47 @@ input{
     bottom:0
    
 }
+
+@media screen and (max-width : 550px){
+
+    .content {
+        grid-template-columns: 0% 100%;
+        grid-template-rows: 150px;
+    
+    }
+
+    
+    .create-room-div{
+        margin-top: 5rem;
+    }
+    .content header {
+        width: 90%;
+        
+    }
+    main{
+        width: 90%;
+    }
+
+    #create-room{
+        width: 100%;
+    }
+
+    .container{
+        width: 100% !important;
+    }
+    header{
+        margin: 3rem auto !important
+    }
+    .container{
+        margin: 0 !important
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto !important;
+    }
+
+    svg{
+        display:none;
+    }
+}

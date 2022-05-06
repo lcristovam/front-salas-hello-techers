@@ -202,3 +202,13 @@
     margin-top: 1.3rem;
     line-height: 150%;
 }
+
+@media screen and (max-width : 550px){
+
+    header{
+       
+        flex-wrap: wrap;
+        
+    }
+
+}
